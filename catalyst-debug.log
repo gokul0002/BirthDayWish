@@ -1,0 +1,77 @@
+[debug] [2024-05-26T15:56:17.907Z] : 
+[debug] [2024-05-26T15:56:17.908Z] : ----------------------------------------------------------------------
+[debug] [2024-05-26T15:56:17.909Z] : Command:      /home/vmgdigtal/.nvm/versions/node/v16.20.2/bin/node /home/vmgdigtal/.nvm/versions/node/v16.20.2/bin/catalyst init --force
+[debug] [2024-05-26T15:56:17.909Z] : CLI Version:  1.17.5
+[debug] [2024-05-26T15:56:17.909Z] : Platform:     linux
+[debug] [2024-05-26T15:56:17.910Z] : Node Version: v16.20.2
+[debug] [2024-05-26T15:56:17.910Z] : Time:         Sun May 26 2024 21:26:17 GMT+0530 (India Standard Time)
+[debug] [2024-05-26T15:56:17.911Z] : ----------------------------------------------------------------------
+[debug] [2024-05-26T15:56:17.911Z] : 
+[debug] [2024-05-26T15:56:18.473Z] : > authorizing via signed-in user option
+[debug] [2024-05-26T15:56:18.474Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.projects.ALL","Stratus.sdkop.CREATE","Stratus.sdkop.READ","ZohoCatalyst.project.import.CREATE"]
+[debug] [2024-05-26T15:56:18.486Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/20692000000006077 
+
+[debug] [2024-05-26T15:56:19.937Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 26 May 2024 15:56:19 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","ZD_CSRF_TOKEN=63ef3ce3-a5b4-4e5c-8319-c125a374f3a5;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=63ef3ce3-a5b4-4e5c-8319-c125a374f3a5;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-05-26T15:56:19.948Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/20692000000006077/environment 
+
+[debug] [2024-05-26T15:56:20.975Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 26 May 2024 15:56:20 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=aa494080-acb2-44c2-a78a-16c9cd26b50f;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=aa494080-acb2-44c2-a78a-16c9cd26b50f;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-05-26T15:56:20.982Z] : 
+      ___  
+      \  \     ____           _             _                 _   
+   ___ \  \   / ___|   __ _  | |_    __ _  | |  _   _   ___  | |_ 
+  /  / /  /  | |      / _` | | __|  / _` | | | | | | | / __| | __|
+ /  / /__/   | |___  | (_| | | |_  | (_| | | | | |_| | \__ \ | |_ 
+ \  \         \____|  \__,_|  \__|  \__,_| |_|  \__, | |___/  \__|
+  \__\                                          |___/       
+
+You're about to initialize a Catalyst project in this directory:
+
+  /home/vmgdigtal/new-angular/backup-twinbday/twin-bday
+
+[debug] [2024-05-26T15:56:20.991Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/orgs 
+
+[debug] [2024-05-26T15:56:22.593Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 26 May 2024 15:56:22 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=3afcac1e-8f44-4e4b-b89b-9a0d75237a64;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=3afcac1e-8f44-4e4b-b89b-9a0d75237a64;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-05-26T15:56:22.613Z] : ℹ Setting up a new default project for this folder
+
+[debug] [2024-05-26T15:56:22.615Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project 
+
+[debug] [2024-05-26T15:56:24.232Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 26 May 2024 15:56:23 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=e9c70888-0316-4227-9b0c-803e79bc5668;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=e9c70888-0316-4227-9b0c-803e79bc5668;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-05-26T15:56:25.533Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/20692000000006077/environment 
+
+[debug] [2024-05-26T15:56:26.829Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 26 May 2024 15:56:26 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=797e8dfd-e759-436d-9653-c87d93dfe699;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=797e8dfd-e759-436d-9653-c87d93dfe699;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-05-26T15:56:26.837Z] : ℹ .catalystrc file has be successfully created with project details.
+[info] [2024-05-26T15:56:29.375Z] : 
+===> Client Setup
+[error] [2024-05-26T15:56:32.547Z] : ✖ An unexpected error has occurred.
+[debug] [2024-05-26T15:56:32.547Z] : Error Stack: CatalystError: An unexpected error has occurred.
+    at exports.default (/home/vmgdigtal/.nvm/versions/node/v16.20.2/lib/node_modules/zcatalyst-cli/lib/errorOut.js:12:17)
+    at Command.<anonymous> (/home/vmgdigtal/.nvm/versions/node/v16.20.2/lib/node_modules/zcatalyst-cli/lib/internal/command.js:161:40)
+    at Generator.throw (<anonymous>)
+    at rejected (/home/vmgdigtal/.nvm/versions/node/v16.20.2/lib/node_modules/zcatalyst-cli/lib/internal/command.js:29:65)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[debug] [2024-05-26T15:56:32.547Z] : Original Error: Error: 3
+    at exports.default (/home/vmgdigtal/.nvm/versions/node/v16.20.2/lib/node_modules/zcatalyst-cli/lib/errorOut.js:14:23)
+    at Command.<anonymous> (/home/vmgdigtal/.nvm/versions/node/v16.20.2/lib/node_modules/zcatalyst-cli/lib/internal/command.js:161:40)
+    at Generator.throw (<anonymous>)
+    at rejected (/home/vmgdigtal/.nvm/versions/node/v16.20.2/lib/node_modules/zcatalyst-cli/lib/internal/command.js:29:65)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[debug] [2024-05-26T15:56:32.547Z] : Error Status: 500
+[info] [2024-05-26T15:56:32.547Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[debug] [2024-05-26T15:56:32.548Z] : EXEC ENDED with event: Error (Unexpected), message: 
+[debug] [2024-05-26T15:56:32.548Z] : TOTAL DURATION OF COMMAND EXEC : 14081
+[debug] [2024-05-26T15:56:32.554Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2024-05-26T15:56:34.266Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 26 May 2024 15:56:33 GMT","content-length":"0","connection":"close","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=afd4f1d2-9e9b-46b5-91ed-5118061f21ce;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=afd4f1d2-9e9b-46b5-91ed-5118061f21ce;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
