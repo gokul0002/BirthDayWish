@@ -1,0 +1,27 @@
+
+<div class="wholeDiv">
+
+    <div class="countdown-timer" [class.hidden]="timeUp">
+        <div class="time" style="margin-top: 50%;">
+          <span > {{ seconds }}</span>
+        </div> 
+      </div>
+      
+      <div class="birthday-wish" [class.hidden]="!timeUp" *ngIf="!showGifs" style="margin-top: 50%;">
+        <!-- <h1> 🎉🎂🎈  Happy Birthday!  🎈🎂🎉</h1> -->
+        <img src="assets/birthdayWish.gif" alt="" style="width: 100%;">
+        <!-- <p>🎉🎂🎈 May all your wishes come true! 🎈🎂🎉</p> -->
+      </div>
+
+      <div class="gif-container" *ngIf="showGifs" style="margin-top: 30%;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4SOiAoRlGrOukR5ZnxopYA8p3mYfy5tnimaLqKWZSlg&s" alt="" style="box-shadow: none; width: 100%; height: auto;">
+        <img [src]="currentGif" alt="Birthday GIF" width="80%">
+      </div>
+
+      <!-- <audio *ngIf="showGifs"  type="audio/mp3" autoplay src="assets/happy-birthday-155461.mp3"></audio> -->
+  
+      <audio  *ngIf="showGifs" autoplay >
+     <source src="assets/happy-birthday-155461.mp3"  >
+      </audio>
+      
+</div>

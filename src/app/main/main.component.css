@@ -1,0 +1,62 @@
+.wholeDiv{
+    margin-top: 30%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffefd5;
+    overflow: hidden;
+  }
+  
+  .countdown-timer, .birthday-wish {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .time {
+    font-size: 5em;
+    color: #ff69b4;
+    background-color: rgba(255, 182, 193, 0.8);
+    padding: 20px;
+    border-radius: 90%;
+    border: 5px solid #ff1493;
+    /* box-shadow: 0 0 20px rgba(255, 20, 147, 0.5); */
+  }
+  
+  .birthday-wish h1 {
+    font-size: 4em;
+    color: #ff4500;
+    text-shadow: 2px 2px #ff6347;
+  }
+  
+  .birthday-wish p {
+    font-size: 2em;
+    color: #ffa07a;
+    margin-top: 20px;
+  }
+  
+  .birthday-wish {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 15px;
+    /* box-shadow: 0 0 20px rgba(255, 99, 71, 0.5); */
+  }
+  
+
+  .gif-container img {
+    width: 100%;
+    border-radius: 15px;
+    /* box-shadow: 0 0 20px rgba(255, 99, 71, 0.5); */
+  }
